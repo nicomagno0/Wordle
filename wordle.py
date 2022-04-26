@@ -15,7 +15,6 @@ if (respuesta == 1):
     while len(palabra) != 6:
         palabra = linecache.getline("diccionario.txt",random.randint(1,80383))
         palabra = palabra.lower()
-    print(palabra)
     
     palabraIngresada = ""
 
@@ -54,7 +53,6 @@ elif (respuesta == 2):
     while len(palabra) != 7:
         palabra = linecache.getline("diccionario.txt",random.randint(1,80383))
         palabra = palabra.lower()
-    print(palabra)
     
     palabraIngresada = ""
 
@@ -94,7 +92,6 @@ elif (respuesta == 3):
     while len(palabra) != 8:
         palabra = linecache.getline("diccionario.txt",random.randint(1,80383))
         palabra = palabra.lower()
-    print(palabra)
     
     palabraIngresada = ""
 
